@@ -1,0 +1,130 @@
+/*exercice: profile of christophe c - css
+last edit : jully 20th
+author : christophe*/
+
+
+body {
+  	color: rgb(50, 50, 50);    
+	background-color: rgb(230,230,230);  
+	font-family: Helvetica;
+	font-size: 16px;
+
+	text-align: justify;
+	text-decoration: none;
+}
+
+
+
+h1 {
+	color: rgb(20,20,20);
+	font-size: 30px;
+	
+}
+
+
+h2 {
+	color: rgb(30,30,30);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: purple;
+}
+
+div {
+
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	background-color: white;
+
+	padding: 30px;
+	width: 950px;
+	margin: 20px auto; 
+	transition: 1s;
+}
+
+.container {
+	background-color: rgb(220,220,250);
+}
+
+.card-white {
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(60,30,30,0.1);
+	margin: 20px auto;
+	width : 850px;
+	text-align: center;
+}
+
+.card-white:hover{
+	box-shadow: 0px 10px 30px rgba(60,30,30,0.6);
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 2px solid rgb(200,200,250);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+
+.btn-red{
+	background-color: rgb(250,100,100);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.btn-red:hover {
+	background-color: rgb(250,150,150);
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	.container {
+		width: 700px;
+	}
+	.card-white {
+		width: 600px;
+	}
+
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+	.card-white {
+		width: 450px;
+	}
+
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		}
+	.card-white {
+		width: 250px;
+		margin: 10px auto;
+	}
+	.btn-red{
+		padding: 5px 5px;
+		width: 50px;
+	}
+
+}
+
+
+
